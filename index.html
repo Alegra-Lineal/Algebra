@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebra Lineal</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-color: #E5E7E9;"></body>
+    
+<body>
+    
+    <div class="Titulo"><h1>Espacios Vectoriales</h1></div>
+    <div class="TT"><h3>Definición de espacio vectorial</h3> </div>
+    <div class="Text"><p>Un espacio vectorial V es un conjunto de objetos, denominados vectores, junto con dos 
+        operaciones binarias llamadas suma y multiplicación por un escalar, y que satisfacen los diez 
+        axiomas.</p>
+    <ul>
+        <li>1. u+v∈V𝑢+𝑣∈𝑉</li>
+        <li>2. u+v=v+u𝑢+𝑣=𝑣+𝑢 </li>
+        <li>3. (u+v)+w=u+(v+w)(𝑢+𝑣)+𝑤=𝑢+(𝑣+𝑤) </li>
+        <li>4.  Existe un vector nulo 0V∈V0𝑉∈𝑉 tal que v+0V=v𝑣+0𝑉=𝑣 </li>
+        <li>5. Para cada v𝑣 en V𝑉, existe un opuesto (–v)∈V(–𝑣)∈𝑉 tal que v+(–v)=0V𝑣+(–𝑣)=0𝑉</li>
+        <li>6. αv∈V𝛼𝑣∈𝑉 </li>
+        <li>7.  α(u+v)=αu+αv𝛼(𝑢+𝑣)=𝛼𝑢+𝛼𝑣 </li>
+        <li>8.  (α+β)v=αv+βv(𝛼+𝛽)𝑣=𝛼𝑣+𝛽𝑣 </li>
+        <li>9. α(βv)=(αβ)v𝛼(𝛽𝑣)=(𝛼𝛽)𝑣 </li>
+        <li>10.  1v=v1𝑣=𝑣 </li>
+    </ul>
+    </div>
+    <div class="TT"><h3>Definición de subespacio vectorial y sus propiedades</h3> </div>
+    <div class="Text">
+        <p>Se dice que H es un subespacio vectorial de V si H es un subconjunto no vacio de V, y H es un 
+        espacio vectorial, junto con las operaciones de suma entre vectores y multiplicación por un escalar 
+        definidas para V.  </p>
+    <p>Se podría decir que el sub espacio H “hereda” las operaciones del espacio vectorial “padre” V</p>
+    <ul>
+        <li>Propiedades  </li>
+    </ul>
+    <p>Un subconjunto no vacio H de un espacio vectorial V es un subespacio de V si se cumplen 
+        las dos reglas de cerradura:</p>
+        <ul>
+            <li>Si 𝑥𝜖𝐻 𝑦 𝜖𝐻, entonces 𝑥 + 𝑦  𝜖𝐻. </li>
+            <li>Si 𝑥𝜖𝐻, ENTONCES ∝ 𝑥𝜖𝐻 para todo escalar ∝.</li>
+        </ul>
+    </div>
+    <div class="TT"><h3>Combinación lineal. Independencia lineal</h3></div>
+    <div class="Text"><p>Sean 𝑣1,𝑣2… Un vector es un espacio vectorial V. Entonces cualquier vector de la forma
+        𝑎1𝑣1 +𝑎2𝑣2 + … 𝑎𝑛𝑣𝑛 donde 𝑎1,𝑎2 , …,𝑎𝑛 son escalares se denomina una combinación lineal de 𝑣1 + 𝑣2,…,𝑣𝑛 </p>
+    <p><strong>Ejemplo</strong></p>
+    <img src="ejeplo.png" alt="XD">
+    </div>
+    <div class="TT"><h3> Independencia lineal </h3></div>
+    <div class="Text">
+        <p>Se dice que los vectores 𝑣1, 𝑣2… 𝑣𝑘 de un espacio vectorial V generan a V, si cada vector en 
+            V es una combinación lineal de 𝑣1,𝑣2….𝑣𝑘.</p>
+        <p>El procedimiento para establecer si los vectores generan el espacio vectorial V es como 
+            sigue.</p>
+        <ul>
+            <li>Seleccione un vector arbitrario V en V.</li>
+            <li>Determine si V es una combinación lineal de los vectores dados. Si lo es, los vectores dados 
+                generan a v; si no los vectores dados no generan a V.</li>
+        </ul>
+    </div>
+    <div class="TT"><h3>Bases y Dimensiones  </h3></div>
+    <div class="Text">
+        <p>Si los vectores  𝑣1,𝑣2,…, 𝑣𝑘 forman una base para un espacio vectorial v, ellos son distintos y no 
+            nulos; por esto los escribiremos como un conjunto [𝑣1,𝑣2….𝑣𝑘]. </p>
+        <p>Debemos mostrar que 𝛿 genera a V y que es literalmente independiente. Para probar que genera 
+            a V, sea el polinomio 𝑎𝑡2 + 𝑏𝑡 + 𝑐 un vector arbitrario en V. Determine contantes 𝑎1,𝑎2 𝑦 𝑎3, 
+            tales que</p>
+            <img src="ejee.png" alt="XD">
+        <p>Dado que los dos polinomios coinciden para todos los valores de r solo si los coeficientes de las 
+            respectivas potencias respectivas de t son iguales obtenemos el sistema lineal. 
+
+        </p>
+        <img src="ejem.png" alt="XD">
+    </div>
+ <a href="4.5.html"><h3>4.5 Espacio vectorial con producto interno y sus propiedades.</h3></a>
+ <a href="4.6.html"><h3>4.6 Base ortonormal, proceso de orto normalización Gram – Schmidt.</h3></a>
+</body>
+</html>

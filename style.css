@@ -1,0 +1,15 @@
+.Titulo{
+    text-align: center;
+    color: #28B463;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.TT{
+    text-align: left;
+    text-align: justify;
+    color: #58D68D;
+}
+.Text{
+    text-align: center;
+    text-align: justify;
+    align-self: auto;
+}
